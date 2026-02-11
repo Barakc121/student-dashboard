@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.stats-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.stats-bar {
+    width: 15%;
+    margin: 1%;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+    padding: 17px;
+    text-align: center;
+    box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.stats-bar:hover {
+    background-color: #b0a1cc31;
+}
+
+.stats-label {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.stats-number {
+    color: #6e36d6;
+    padding: 5px;
+    font-size: 35px;
+    font-weight: 650;
+}

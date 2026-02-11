@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    top: 0;
+    position: sticky;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.textu{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}

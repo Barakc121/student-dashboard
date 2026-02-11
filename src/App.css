@@ -1,0 +1,21 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+body {
+    font-family: Segoe UI,system-ui,-apple-system,sans-serif;
+    line-height: 1.6;
+    font-size: 1.2rem;
+    color: #1a1a2e;
+    background-color: #f0f2f5;
+    min-height: 100vh;
+        background-color: #f0f2f5;
+
+}  
+
+* {
+  transition: all 0.2s;
+}
